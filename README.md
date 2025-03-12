@@ -25,13 +25,12 @@ Some functions have not been implemented currently. However, we are devoting to 
    For example:  
    `SUBSTRING(UCASE(my_string), 2, 5)`
 
-2. `REPEAT UNTIL` loop is not currently supported  
+2. File managing statements are not currently supported  
    For example:
    ```
-   REPEAT
-       i <- i + 1
-       OUTPUT i
-   UNTIL i >= 10
+   OPENFILE "abc.txt" FOR READ
+   READFILE "abc.txt", file
+   CLOSEFILE "abc.txt"
    ```
 
 ## Log Entries

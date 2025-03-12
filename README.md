@@ -62,11 +62,16 @@ Fix several bugs existed in [v0.2.1](#march-07-2025---v021), and some functions
 * Changed: Updates the GUI
 * Fixed: The bug that `SUBSTRING` handler sometimes triggers unexpected errors
 
+### [March 12, 2025] - v0.2.3
+Add support to `REPEAT UNTIL` loop
+
+* Added: Handler for `REPEAT UNTIL` loop
+
 ## Issue
 If you encounter a problem or find that the translation includes unexpected results, please open an issue in the [Issue Page](https://github.com/shixingzeya/Simpler-Released/issues), report and explain the problem you encountered. This will help us improve Simpler and make it even better. We deeply appreciate your efforts and contribution to Simpler
 
 ## Future Plans
 1. Implement handler for nesting functions
-2. Implement `REPEAT UNTIL` loop
+2. Add support to file managing statements
 3. Add support to A Level CAIE Pseudocode
 4. Improve the GUI

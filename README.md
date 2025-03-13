@@ -55,7 +55,7 @@ Fix several bugs existed in [v0.2.0](#march-06-2025---v020)
 * Fixed: The bug that `<-` handler fails in some situations
 
 ### [March 11, 2025] - v0.2.2
-Fix several bugs existed in [v0.2.1](#march-07-2025---v021), and some functions
+Fix several bugs existed in [v0.2.1](#march-07-2025---v021), add some functions
 
 * Added: Translate-time detection for whether all the complex statements are enclosed
 * Changed: Updates the GUI
@@ -65,6 +65,11 @@ Fix several bugs existed in [v0.2.1](#march-07-2025---v021), and some functions
 Add support to `REPEAT UNTIL` loop
 
 * Added: Handler for `REPEAT UNTIL` loop
+
+### [March 13, 2025] - v0.2.4
+Fix a bug existed in [v0.2.3](#march-12-2025---v023)
+
+* Fixed: The bug that `REPEAT UNTIL` loop behaves wrongly
 
 ## Issue
 If you encounter a problem or find that the translation includes unexpected results, please open an issue in the [Issue Page](https://github.com/shixingzeya/Simpler-Released/issues), report and explain the problem you encountered. This will help us improve Simpler and make it even better. We deeply appreciate your efforts and contribution to Simpler

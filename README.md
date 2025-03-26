@@ -71,6 +71,13 @@ Fix a bug existed in [v0.2.3](#march-12-2025---v023)
 
 * Fixed: The bug that `REPEAT UNTIL` loop behaves wrongly
 
+### [March 26, 2025] - v0.3.0
+Updates the main interface and change several implement
+
+* Added: Night mode for the main interface
+* Changed: Updates the GUI
+* Changed: Refactored general `DECLARE` handler
+
 ## Issue
 If you encounter a problem or find that the translation includes unexpected results, please open an issue in the [Issue Page](https://github.com/shixingzeya/Simpler-Released/issues), report and explain the problem you encountered. This will help us improve Simpler and make it even better. We deeply appreciate your efforts and contribution to Simpler
 
@@ -78,4 +85,3 @@ If you encounter a problem or find that the translation includes unexpected resu
 1. Implement handler for nesting functions
 2. Add support to file managing statements
 3. Add support to A Level CAIE Pseudocode
-4. Improve the GUI
